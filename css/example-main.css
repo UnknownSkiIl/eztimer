@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #006e44;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.title h1 span {
+    color: #00ff0d;
+}
+
+.title p {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title {
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+.timer {
+    font-size: 60px;
+}
+
+.timer span:nth-child(odd) {
+    color: #00ff0d;
+}
